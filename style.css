@@ -64,3 +64,48 @@ footer {
   height: 50px;
   background-color: #aaa;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .step-box {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .step-box:last-child {
+    margin-bottom: 50px;
+    margin-right: auto;
+  }
+
+  .step-img1 {
+    height: 150px;
+    width: 100%;
+    background-image: url(img/flow01.png);
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  .step-img2 {
+    height: 150px;
+    background-image: url(img/flow02.png);
+    background-position: center bottom;
+    background-size: cover;
+  }
+
+  .step-img3 {
+    height: 150px;
+    background-image: url(img/flow03.png);
+    background-position: bottom;
+    background-size: cover;
+  }
+}
